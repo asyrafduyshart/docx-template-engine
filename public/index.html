@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <form ref='uploadForm' 
+      id='uploadForm' 
+      action='http://localhost:9000/upload' 
+      method='post' 
+      encType="multipart/form-data">
+        <input type="file" name="document" /> <br>
+        Tanggal:<br>
+        <input type="text" name="date"><br>
+        Lokasi:<br>
+        <input type="text" name="location"><br>
+        Nama pihak pertama:<br>
+        <input type="text" name="firstPartyName"><br>
+        Name pihak kedua:<br>
+        <input type="text" name="secondPartyName"><br>
+        <input type='submit' value='Upload!' /> <br>
+    </form>     
+  </body>
+</html>

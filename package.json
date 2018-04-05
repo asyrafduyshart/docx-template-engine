@@ -1,0 +1,24 @@
+{
+  "name": "serverless-docx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docxtemplater": "^3.6.1",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "jszip": "^2.6.1",
+    "serverless-http": "^1.5.5",
+    "unzip": "^0.1.11",
+    "yauzl": "^2.9.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.20.1"
+  }
+}
